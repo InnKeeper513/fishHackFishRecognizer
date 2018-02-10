@@ -14,6 +14,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Get the intent that started this activity and extract the string
         Intent intent = getIntent();
+
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
         // Get the TextView from the layout and set the string as the layout's text
